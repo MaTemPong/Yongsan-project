@@ -1,7 +1,11 @@
 import React from "react";
+import * as S from "./styled"
+
 function Main() {
     return (
-        <p>HelloWorld</p>
+        <S.Container>
+            <S.Title>BYSTANDER</S.Title>
+        </S.Container>
     );
 }
 
