@@ -8,13 +8,16 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   white-space: nowrap;
-
-  p {
-    font-size: 2rem;
-  }
+  text-align: center;
+  font-size: 2rem;
 `;
 
-export const TextBox = styled.div``;
+export const InputSet = styled.div`
+  width: 300px;
+  input{
+    width=70%;
+  }
+`;
 
 export const Title = styled.h1`
   font-size: 10rem;
