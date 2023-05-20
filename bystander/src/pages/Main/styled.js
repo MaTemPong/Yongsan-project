@@ -28,6 +28,7 @@ export const InputSet = styled.div`
     height: 100%;
     font-size: 1.5rem;
     outline:none;
+    padding: 15px;
   } 
   button{
     width: 30%;
