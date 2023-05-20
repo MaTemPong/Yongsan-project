@@ -13,7 +13,7 @@ export const Container = styled.div`
   text-align: center;
   font-size: 1.5rem;
   box-shadow: inset 1px 1px 50px 10px black;  
-  background: url(${schoolImg}) center/cover blur(10px);
+  font-family: 'Jeonju_gakR';
 `;
 
 export const InputSet = styled.div`
@@ -41,10 +41,12 @@ export const InputSet = styled.div`
 `;
 
 export const Title = styled.h1`
-  animation: fadeInUp2 2s;
 `;
 
 export const Description = styled.p`
- animation: fadeInUp1 3s;
+ line-height: 40px;
  color: gray; 
 `;
+
+export const MainContent = styled.div`
+animation: fadeInUp2 3s;`;
