@@ -28,7 +28,7 @@
   }
 }
 
-@keyframes motion {
+@keyframes floatingMotion {
 	0% {
     top: 0px;
   }
