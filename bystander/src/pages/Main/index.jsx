@@ -2,6 +2,7 @@ import React from "react";
 import * as S from "./styled"
 import logoImg from '../../media/img/logo_biack_shadow.png'
 
+
 function Main() {
     return (
         <S.Container>
