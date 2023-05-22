@@ -16,19 +16,28 @@ export const Container = styled.div`
   font-family: "Jeonju_gakR";
 `;
 
+export const Intro = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  animation: fadeInUp2 3s;
+`;
+
 export const InputSet = styled.div`
   display: flex;
   align-items: center;
   position: relative;
-  width: 350px;
+  width: 300px;
   height: 50px;
   display: flex;
   border-radius: 2px;
   border-bottom: 0.5px solid #333;
   input {
     position: absolute;
-    left: 45px;
-    width: 70%;
+    left: 5px;
+    width: 100%;
     height: 100%;
     font-size: 20px;
     outline: none;
@@ -36,8 +45,10 @@ export const InputSet = styled.div`
     border: 0;
   }
   a {
+    width: 100px;
+    height: 100%;
     position: absolute;
-    right: 0;
+    right: -70px;
     img {
       width: 50px;
       height: 50px;
@@ -54,5 +65,7 @@ export const Description = styled.p`
 `;
 
 export const MainContent = styled.div`
-  animation: fadeInUp2 3s;
+  position: relative;
+  animation: motion 0.3s linear 0s infinite alternate;
+  top: 0;
 `;
