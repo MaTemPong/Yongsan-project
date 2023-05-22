@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./Main";
 
-function Router() {
+function Router() { 
     return (
         <BrowserRouter>
             <Routes>
