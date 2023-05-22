@@ -14,6 +14,7 @@ export const Container = styled.div`
   font-size: 1.5rem;
   box-shadow: inset 1px 1px 50px 10px black;
   font-family: "Jeonju_gakR";
+  overflow: hidden;
 `;
 
 export const Intro = styled.div`
