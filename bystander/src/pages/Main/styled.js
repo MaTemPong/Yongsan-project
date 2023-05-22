@@ -20,15 +20,14 @@ export const InputSet = styled.div`
   display: flex;
   align-items: center;
   position: relative;
-  width: 300px;
+  width: 350px;
   height: 50px;
   display: flex;
-  border-radius: 9px;
-  overflow: hidden;
-  border: 0.1px solid #333;
+  border-radius: 2px;
+  border-bottom: 0.5px solid #333;
   input {
     position: absolute;
-    left: 30px;
+    left: 45px;
     width: 70%;
     height: 100%;
     font-size: 20px;
@@ -36,16 +35,15 @@ export const InputSet = styled.div`
     padding: 15px;
     border: 0;
   }
-  button {
+  a {
     position: absolute;
     right: 0;
-    width: 75px;
-    height: 100%;
-    background: #333;
-    color: white;
-    font-weight: 700;
-    font-size: 18px;
+    img {
+      width: 50px;
+      height: 50px;
+    }
   }
+  animation: fadeInUp2 5s;
 `;
 
 export const Title = styled.h1``;
