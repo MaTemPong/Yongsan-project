@@ -44,7 +44,6 @@ export const InputSet = styled.div`
     outline: none;
     padding: 15px;
     border: 0;
-    background-color: transparent;
   }
   a {
     width: 100px;
@@ -68,6 +67,6 @@ export const Description = styled.p`
 
 export const MainContent = styled.div`
   position: relative;
-  animation: floatingMotion 0.5s linear 0s infinite alternate;
+  animation: motion 0.3s linear 0s infinite alternate;
   top: 0;
 `;

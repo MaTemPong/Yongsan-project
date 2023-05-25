@@ -1,12 +1,11 @@
 import React from "react";
 import * as S from "./styled"
 import logoImg from '../../media/img/logo_biack_shadow.png'
-import postIcon from '../../media/img/postIcon.png'
+
 
 function Main() {
     return (
         <S.Container>
-            <S.Intro>
             <S.MainContent>
                 <S.Title><img src={logoImg} alt="bystander.logo" width="800px" /></S.Title>
                 <S.Description>
@@ -14,10 +13,9 @@ function Main() {
                 </S.Description>
             </S.MainContent>
             <S.InputSet>
-                <input placeholder="이름 작성을 작성해주세요!"/>
-                <a href="#"><img src={postIcon} alt="logo" /></a>
+                <input placeholder="이름 작성"/>
+                <button>확인</button>
             </S.InputSet>
-            </S.Intro>
         </S.Container>
     );
 }
