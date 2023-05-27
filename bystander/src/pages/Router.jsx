@@ -1,13 +1,13 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./Main";
-import Sns from "./SNS";
+import SNSDirectMessage from "./SNS/SNS_DirectMessage";
 
 function Router() { 
     return (
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Main/>}/>
-                <Route path="/sns" element={<Sns/>}/>
+                <Route path="/test" element={<SNSDirectMessage/>}/>
             </Routes>
         </BrowserRouter>
     );
