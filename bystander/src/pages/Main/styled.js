@@ -17,28 +17,19 @@ export const Container = styled.div`
   overflow: hidden;
 `;
 
-export const Intro = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  animation: fadeInUp2 3s;
-`;
-
 export const InputSet = styled.div`
   display: flex;
   align-items: center;
   position: relative;
-  width: 300px;
+  width: 350px;
   height: 50px;
   display: flex;
   border-radius: 2px;
   border-bottom: 0.5px solid #333;
   input {
     position: absolute;
-    left: 5px;
-    width: 100%;
+    left: 45px;
+    width: 70%;
     height: 100%;
     font-size: 20px;
     outline: none;
@@ -46,10 +37,8 @@ export const InputSet = styled.div`
     border: 0;
   }
   a {
-    width: 100px;
-    height: 100%;
     position: absolute;
-    right: -70px;
+    right: 0;
     img {
       width: 50px;
       height: 50px;
@@ -66,7 +55,5 @@ export const Description = styled.p`
 `;
 
 export const MainContent = styled.div`
-  position: relative;
-  animation: motion 0.3s linear 0s infinite alternate;
-  top: 0;
+  animation: fadeInUp2 3s;
 `;
