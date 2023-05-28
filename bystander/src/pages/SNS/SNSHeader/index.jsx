@@ -1,8 +1,14 @@
-
+import * as S from './styled'
+import SNSLogo from '../../../media/img/SNSLogo.png'
 
 function SNSHeader(){
-    return (<div></div>);
-
+    return (<S.HeaderBar>
+        <S.LogoContiner>
+          <a href="#">
+            <img src={SNSLogo} alt="SNSLogo"/>
+          </a>
+        </S.LogoContiner>
+      </S.HeaderBar>);
 }
 
 export default SNSHeader;

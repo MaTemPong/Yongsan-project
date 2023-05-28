@@ -1,14 +1,19 @@
-import * as S from './styled'
-import SNSLogo from '../../../media/img/SNSLogo.png'
+import * as S from './styled';
+
+import SNSHeader from "../SNSHeader";
+import DirectMessageContents from './DirectMessageContents';
 
 function SNSDirectMessage(){
-  return (<S.HeaderBar>
-    <S.LogoContiner>
-      <a href="#">
-        <img src={SNSLogo} alt="SNSLogo"/>
-      </a>
-    </S.LogoContiner>
-  </S.HeaderBar>);
+  return (
+    <S.Container>
+      <SNSHeader/>
+      <S.MainContent>
+        <DirectMessageContents>
+          
+        </DirectMessageContents>
+      </S.MainContent>
+    </S.Container>
+  );
 }
 
 export default SNSDirectMessage;

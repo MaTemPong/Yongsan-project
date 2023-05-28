@@ -1,9 +1,9 @@
-import Header from "./Header";
+import Header from "./SNSHeader";
 
-function Sns(){
+function SNS(){
     return <div>
         <Header/>
     </div>
 }
 
-export default Sns;
+export default SNS;
