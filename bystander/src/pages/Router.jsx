@@ -7,7 +7,7 @@ function Router() {
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Main/>}/>
-                <Route path="/SNS/directMessage" element={<SNSDirectMessage/>}/>
+                <Route path="/SNS/DM" element={<SNSDirectMessage/>}/>
             </Routes>
         </BrowserRouter>
     );
