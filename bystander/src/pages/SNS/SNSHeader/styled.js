@@ -1,9 +1,10 @@
 import styled from "styled-components";
 
 export const HeaderBar = styled.div`
-  background: #212121;
+  background: #FFFAFA;
   width: 100px;
   height: 100vh;
+  box-shadow: 1px 1px 50px 1px gray;
 `;
 
 export const LogoContiner = styled.div`
@@ -12,5 +13,5 @@ export const LogoContiner = styled.div`
   display:flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; 
 `

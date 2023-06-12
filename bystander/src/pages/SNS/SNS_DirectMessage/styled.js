@@ -5,7 +5,7 @@ export const Container = styled.div`
 `;
 
 export const MainContent = styled.div`
-  background: #5C5C5C;
+  background: #a0a0a0;
   width: calc(100vw - 100px);
   height: 100vh;
   display: flex;
